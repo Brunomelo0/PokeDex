@@ -2,7 +2,7 @@
 </script>
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
           <img src="./assets/pikachu.png" width="30" height="24" class="d-inline-block align-text-top">
@@ -31,8 +31,10 @@
       <router-view></router-view>
     </div>
 
-    <footer class="bg-primary text-light">
-      <div>Design in {{ new Date().getFullYear() }} </div>
+    <footer class="bg-dark text-light">
+      <div>
+        <a href="https://github.com/Brunomelo0/PokeDex"><img src="./assets/github.svg" alt="Github link"></a>
+      </div>
     </footer>
   </div>
 </template>
@@ -56,4 +58,5 @@ footer {
   justify-content: center;
   height: 56px;
 }
+
 </style>
