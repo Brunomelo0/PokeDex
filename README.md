@@ -1,6 +1,6 @@
 # pokedex
 
-This template should help get you started developing with Vue 3 in Vite.
+Site do projeto: [https://poke-dex-sigma-eight.vercel.app/]
 
 ## Recommended IDE Setup
 
