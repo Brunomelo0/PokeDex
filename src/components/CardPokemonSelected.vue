@@ -15,7 +15,7 @@ const pokemon = defineProps(["name", "xp", "height", "image", "loading"])
                 </section>
                 <section class="col">
                     <strong>Altura:</strong>
-                    <span>{{ pokemon.height }}</span>
+                    <span>{{ pokemon.height/10 }}</span>
                 </section>
             </div>
         </div>
